@@ -4,9 +4,7 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  binding.pry 
-  array="badge messages"
-  loop do
+  attendees.collect do |names|
  return "Hello, my name is #{name}."
  break
 end
