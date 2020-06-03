@@ -6,7 +6,6 @@ end
 def batch_badge_creator(attendees)
   attendees.collect do |names|
  return "Hello, my name is #{name}."
- break
 end
 end
 
